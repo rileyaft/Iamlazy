@@ -22,7 +22,7 @@ YOUR_TOKEN="98374982347cfh23847f298f4792dh429" # IMPORTANT: your Github API acce
 REPO="Iamlazy" # repo to grab from
 OWNER="rileyaft" # owner of repo
 DIRECTORY="/home/rileyaft/Applications" # desired file output (WILL REPLACE EXISTING FILE IF PRESENT)
-FILE="7z" # desired application file extension grabbed from releases, ie "7z"
+FILE="tar.gz" # desired application file extension grabbed from releases, ie "7z"
 NAME="Iamlazy" # application will be named this once complete
 ```
 Ensure the directory is listed directly from ```/```, otherwise ```mv``` tends to struggle.
