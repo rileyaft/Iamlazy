@@ -17,11 +17,10 @@ Written in entirely in bash, it should be able to run on any UNIX-Like system, a
 Make sure to configure the script once it has been downloaded, and only change the User Defined Variables.
 Example configs are as follows below!
 ```bash
-# User Variables
-YOUR_TOKEN="your_api_key_here" # IMPORTANT: your Github API access key, make one at "https://github.com/settings/tokens"
+YOUR_TOKEN="no_token" # Github API key for those who want to do large numbers of requests. Leave blank/untouched unless you need to download 60 files/min
 REPO="Iamlazy" # repo to grab from
 OWNER="rileyaft" # owner of repo
-DIRECTORY="/home/rileyaft/Applications" # desired file output (WILL REPLACE EXISTING FILE IF PRESENT)
+DIRECTORY="$HOME/Iamlazy" # desired file output (WILL REPLACE EXISTING FILE IF PRESENT)
 FILE="tar.gz" # desired application file extension grabbed from releases, ie "7z"
 NAME="Iamlazy" # application will be named this once complete
 ```
@@ -39,3 +38,5 @@ Ensure the directory is listed directly from ```/```, otherwise ```mv``` tends t
 > Qt6 GUI?
 
 > WORLD DOMINATION
+
+> Removal of nessicary API key 
