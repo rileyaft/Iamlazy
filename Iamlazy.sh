@@ -3,7 +3,7 @@
 # This script'll grab the latest release for your own use, then name/place it whatever/wherever you like!
 # Made by RileyAFT on Github, because I'm lazy
 # Check out my revisions at https://github.com/rileyaft/Iamlazy
-# Version 1.0.1
+# Version 1.1.0
 
 #    _____                _
 #    \_   \__ _ _ __ ___ | | __ _ _____   _
