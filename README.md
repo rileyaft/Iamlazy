@@ -18,7 +18,7 @@ Make sure to configure the script once it has been downloaded, and only change t
 Example configs are as follows below!
 ```bash
 # User Variables
-YOUR_TOKEN="98374982347cfh23847f298f4792dh429" # IMPORTANT: your Github API access key, make one at "https://github.com/settings/tokens"
+YOUR_TOKEN="your_api_key_here" # IMPORTANT: your Github API access key, make one at "https://github.com/settings/tokens"
 REPO="Iamlazy" # repo to grab from
 OWNER="rileyaft" # owner of repo
 DIRECTORY="/home/rileyaft/Applications" # desired file output (WILL REPLACE EXISTING FILE IF PRESENT)
