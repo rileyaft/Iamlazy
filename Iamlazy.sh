@@ -2,12 +2,22 @@
 
 # This script'll grab the latest release for your own use, then name/place it whatever/wherever you like!
 # Made by RileyAFT on Github, because I'm lazy
+# Check out my revisions at https://github.com/rileyaft/Iamlazy
+# Version 1.0.1
+
+#    _____                _
+#    \_   \__ _ _ __ ___ | | __ _ _____   _
+#     / /\/ _` | '_ ` _ \| |/ _` |_  / | | |
+#  /\/ /_| (_| | | | | | | | (_| |/ /| |_| |
+#  \____/ \__,_|_| |_| |_|_|\__,_/___|\__, |
+#                                     |___/
+
 
 #####################################
 ############# IMPORTANT #############
 #####################################
-# Make sure this script has executable permissions before running! Either use "chmod +x /directory/to/file.sh" or
-# (If using KDE) right-click the file, select Properties > Permissions > Tick "Is Executable"
+# Make sure this script has executable premissions before running! Either use "chmod +x /directory/to/file.sh" or
+# (If using KDE) right click the file, Select Properties > Permissions > Tick "Is Executable"
 
 
 # User Variables
@@ -15,7 +25,7 @@ YOUR_TOKEN="your_token_here" # IMPORTANT: your Github API access key, make one a
 REPO="repo" # repo to grab from
 OWNER="owner" # owner of repo
 DIRECTORY="./Downloads" # desired file output (WILL REPLACE EXISTING FILE IF PRESENT)
-FILE="extension" # desired application file extension grabbed from releases, ie .7z
+FILE="extension" # desired application file extension grabbed from releases, ie "7z"
 NAME="name" # application will be named this once complete
 
 
