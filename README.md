@@ -26,3 +26,11 @@ FILE="7z" # desired application file extension grabbed from releases, ie "7z"
 NAME="Iamlazy" # application will be named this once complete
 ```
 Ensure the directory is listed directly from ```/```, otherwise ```mv``` tends to struggle.
+
+# To-do
+> allow automatic decompression of zip/7z/tar.gz/etc files
+> make this an actual system package
+> further customization
+> separate config file
+> Qt6 GUI?
+> WORLD DOMINATION
