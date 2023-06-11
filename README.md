@@ -39,4 +39,4 @@ Ensure the directory is listed directly from ```/```, otherwise ```mv``` tends t
 
 > WORLD DOMINATION
 
-> Removal of nessicary API key 
+> Removal of nessicary API key ✔️
