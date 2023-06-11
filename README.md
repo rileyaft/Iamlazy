@@ -29,8 +29,13 @@ Ensure the directory is listed directly from ```/```, otherwise ```mv``` tends t
 
 # To-do
 > allow automatic decompression of zip/7z/tar.gz/etc files
+
 > make this an actual system package
+
 > further customization
+
 > separate config file
+
 > Qt6 GUI?
+
 > WORLD DOMINATION
