@@ -2,8 +2,8 @@
 
 # This script'll grab the latest release for your own use, then name/place it whatever/wherever you like!
 # Made by RileyAFT on Github, because I'm lazy
-# Check out my revisions at https://github.com/rileyaft/Iamlazy
-# Version 1.1.0
+# Check out my fully-powered script at https://github.com/rileyaft/Iamlazy
+# Version 1.1.1 (nodeps)
 
 #    _____                _
 #    \_   \__ _ _ __ ___ | | __ _ _____   _
@@ -27,6 +27,12 @@ DIRECTORY="$HOME/Iamlazy" # desired file output (WILL REPLACE EXISTING FILE IF P
 FILE="tar.gz" # desired application file extension grabbed from releases, ie "7z"
 NAME="Iamlazy" # application will be named this once complete
 
+
+# Check if running as root (bad!)
+if [ "$UID" -eq 0 ]; then
+   echo -e "\nDon't run $0 as root!\n" >&2
+   exit 1
+fi
 
 # Check if $DIRECTORY is valid
 check_directory() {
